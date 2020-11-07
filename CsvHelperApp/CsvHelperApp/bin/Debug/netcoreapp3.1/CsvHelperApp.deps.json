@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "CsvHelperApp/1.0.0": {
         "dependencies": {
+          "CsvHelper": "15.0.9",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "3.1.9",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "3.1.9",
           "Microsoft.AspNetCore.Identity.UI": "3.1.9",
@@ -297,6 +298,20 @@
         },
         "compile": {
           "CsvHelperApp.dll": {}
+        }
+      },
+      "CsvHelper/15.0.9": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/CsvHelper.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.9.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/CsvHelper.dll": {}
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
@@ -2487,6 +2502,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/15.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TH231NEh7DMQhQKySQMVms5ZN1kEMpqBujqTdLhV4o1huHtjFtX4l537nOrhz+y5hCpgIk0qm9DdSYGXv24o2A==",
+      "path": "csvhelper/15.0.9",
+      "hashPath": "csvhelper.15.0.9.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/3.1.9": {
       "type": "package",
