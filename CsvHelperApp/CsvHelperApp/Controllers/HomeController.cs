@@ -45,16 +45,14 @@ namespace CsvHelperApp.Controllers
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 var records = csv.GetRecords<User>();
-                
 
+                List<User> nameList = new List<User>();
                 foreach(var data in records)
                 {
-                    ViewData["Records"] = data.Name;
+                    nameList.Add(data);
                 }
 
-                // 　表示されない
-                // ViewBag.record = records;
-
+                ViewData["Records"] = nameList;
 
             }
 

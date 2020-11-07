@@ -10,7 +10,17 @@
 }
 <h2>@ViewData["Title"].</h2>
 <h3>@ViewData["Message"]</h3>
-<h3>@ViewData["Records"]</h3>
+
+
+<ul>
+    @foreach (var item in ViewData["Records"] as IList<User>)
+    {
+        <li>
+            @item.Name
+        </li>
+    }
+</ul>
+
 
 
 

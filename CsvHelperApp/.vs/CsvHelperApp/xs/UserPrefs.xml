@@ -1,13 +1,9 @@
 ﻿<Properties StartupConfiguration="{7C75DF39-18C4-4C29-914A-005C86B8A54F}|Default">
   <MonoDevelop.Ide.ItemProperties.CsvHelperApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CsvHelperApp/Views/Home/Privacy.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CsvHelperApp/Views/Home/ReadCsv.cshtml">
     <Files>
-      <File FileName="CsvHelperApp/Views/Home/Index.cshtml" Line="7" Column="5" />
-      <File FileName="CsvHelperApp/Models/User.cs" Line="10" Column="17" />
-      <File FileName="CsvHelperApp/Controllers/HomeController.cs" Line="33" Column="28" />
-      <File FileName="CsvHelperApp/Views/Home/ReadCsv.cshtml" Line="14" Column="1" />
-      <File FileName="CsvHelperApp/Views/Home/Privacy.cshtml" Line="10" Column="22" />
-      <File FileName="CsvHelperApp/Models/Product.cs" Line="7" Column="25" />
+      <File FileName="CsvHelperApp/Views/Home/ReadCsv.cshtml" Line="15" Column="50" />
+      <File FileName="CsvHelperApp/Controllers/HomeController.cs" Line="57" Column="41" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +14,7 @@
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True">
-                  <Node name="Privacy.cshtml" selected="True" />
+                  <Node name="ReadCsv.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
@@ -31,7 +27,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tetsu/Projects/CsvHelper/CsvHelper/CsvHelperApp/CsvHelperApp/Controllers/HomeController.cs" relfile="CsvHelperApp/Controllers/HomeController.cs" line="64" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
