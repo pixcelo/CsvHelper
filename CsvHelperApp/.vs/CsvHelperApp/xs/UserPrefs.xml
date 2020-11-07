@@ -1,22 +1,25 @@
 ﻿<Properties StartupConfiguration="{7C75DF39-18C4-4C29-914A-005C86B8A54F}|Default">
   <MonoDevelop.Ide.ItemProperties.CsvHelperApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CsvHelperApp/Controllers/HomeController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CsvHelperApp/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="CsvHelperApp/Views/Home/Index.cshtml" Line="7" Column="5" />
-      <File FileName="CsvHelperApp/Models/User.cs" Line="1" Column="1" />
-      <File FileName="CsvHelperApp/Controllers/HomeController.cs" Line="24" Column="10" />
+      <File FileName="CsvHelperApp/Models/User.cs" Line="14" Column="1" />
+      <File FileName="CsvHelperApp/Controllers/HomeController.cs" Line="30" Column="37" />
+      <File FileName="CsvHelperApp/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="CsvHelperApp/Views/Shared/_Layout.cshtml" Line="29" Column="121" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CsvHelperApp" expanded="True">
             <Node name="CsvHelperApp" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="HomeController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -27,7 +30,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/tetsu/Projects/CsvHelper/CsvHelper/CsvHelperApp/CsvHelperApp/Controllers/HomeController.cs" relfile="CsvHelperApp/Controllers/HomeController.cs" line="33" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

@@ -185,3 +185,4 @@
 /Users/tetsu/Projects/CsvHelper/CsvHelper/CsvHelperApp/CsvHelperApp/obj/Debug/netcoreapp3.1/CsvHelperApp.dll
 /Users/tetsu/Projects/CsvHelper/CsvHelper/CsvHelperApp/CsvHelperApp/obj/Debug/netcoreapp3.1/CsvHelperApp.pdb
 /Users/tetsu/Projects/CsvHelper/CsvHelper/CsvHelperApp/CsvHelperApp/obj/Debug/netcoreapp3.1/CsvHelperApp.genruntimeconfig.cache
+/Users/tetsu/Projects/CsvHelper/CsvHelper/CsvHelperApp/CsvHelperApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/ReadCsv.cshtml.g.cs
