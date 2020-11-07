@@ -4,10 +4,10 @@ namespace CsvHelperApp.Models
 {
     public class User
     {
-        [Name("id")]
+        [Name("Id")]
         public int Id { get; set; }
 
-        [Name("name")]
+        [Name("Name")]
         public string Name { get; set; }
     }
 }

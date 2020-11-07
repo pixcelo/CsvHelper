@@ -5,6 +5,7 @@ using CsvHelperApp.Models;
 using System.IO;
 using CsvHelper;
 using System.Globalization;
+using System.Collections.Generic;
 
 namespace CsvHelperApp.Controllers
 {
@@ -24,6 +25,16 @@ namespace CsvHelperApp.Controllers
 
         public IActionResult Privacy()
         {
+
+            //List<Product> p = new List<Product>()
+
+            ViewData["Product"] = new Product()
+            {
+                Id = 1,
+                Name = "Pen",
+                Price = 300,
+            };
+
             return View();
         }
 
@@ -34,7 +45,21 @@ namespace CsvHelperApp.Controllers
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 var records = csv.GetRecords<User>();
+                
+
+                foreach(var data in records)
+                {
+                    ViewData["Records"] = data.Name;
+                }
+
+                // 　表示されない
+                // ViewBag.record = records;
+
+
             }
+
+
+            ViewData["Message"] = "Your application description page.";
 
             return View();
         }
